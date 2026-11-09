@@ -1,0 +1,44 @@
+{
+  "clips": [
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57719257-6097781e7193b1b242e31070608423ff.webm",
+      "start": 2.3,
+      "end": 6.4,
+      "speed": 1.2
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57721218-d1dd8b24f51f3ce139dee29f02bc34dd.webm",
+      "start": 5.2,
+      "end": 8.8,
+      "speed": 1.2
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57721264-b06b9ec1b64b1a18ec8035ffe6be200d.webm",
+      "start": 3.0,
+      "end": 6.3,
+      "speed": 1.1
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57720927-5621ddeefa30a74911b2096b80644f29.webm",
+      "start": 4.9,
+      "end": 8.6,
+      "speed": 1.2
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\materialyDopobrania.webm",
+      "start": 4.1,
+      "end": 7.4,
+      "speed": 1.1
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\dlaPartnerow.webm",
+      "start": 7.4,
+      "end": 11.3,
+      "speed": 1.2
+    }
+  ],
+  "duration": 17.650000000000002,
+  "crop": "1280:616:0:44",
+  "transition": "slideup",
+  "transition_duration": 0.22
+}

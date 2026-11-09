@@ -1,0 +1,38 @@
+{
+  "clips": [
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\mobile\\video-57720793-c4429a2ceca0fe0ec00187b0eb9f43d2.webm",
+      "start": 0.4,
+      "end": 3.9,
+      "speed": 1.15
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\mobile\\video-57720837-307eb986de7309f55f7f2aa25dff0c7c.webm",
+      "start": 5.1,
+      "end": 8.1,
+      "speed": 1.05
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\mobile\\video-57720837-307eb986de7309f55f7f2aa25dff0c7c.webm",
+      "start": 10.4,
+      "end": 13.8,
+      "speed": 1.15
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\mobile\\video-57722486-0d7d328e9bc0b6d059690ddc93ce5cbf.webm",
+      "start": 3.4,
+      "end": 6.8,
+      "speed": 1.15
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\mobile\\video-57720793-c4429a2ceca0fe0ec00187b0eb9f43d2.webm",
+      "start": 11.7,
+      "end": 15.0,
+      "speed": 1.15
+    }
+  ],
+  "duration": 13.803229813664597,
+  "crop": "332:640:474:0",
+  "transition": "slideup",
+  "transition_duration": 0.22
+}

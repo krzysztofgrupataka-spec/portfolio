@@ -1,0 +1,22 @@
+/* Shared Elemental treatment; project artwork keeps its own visual identity. */
+main[data-case-study]{--paper:var(--surface-cream);--ink:var(--ink-color,var(--foreground));--line:var(--border-control);background:var(--surface-cream);color:var(--ink-color,var(--foreground));font-family:var(--font-sans)}
+main[data-case-study]>header,main[data-case-study] footer{background:var(--surface-cream);color:var(--foreground)}
+main[data-case-study] h1,main[data-case-study] h2,main[data-case-study] h3,main[data-case-study] strong{font-family:var(--font-grotesque);font-style:normal;letter-spacing:-.025em}
+main[data-case-study] h1{font-weight:700}main[data-case-study] h2{font-weight:600}
+main[data-case-study] em{font-family:var(--font-serif);font-weight:400}
+main[data-case-study]>header p{font-family:var(--font-sans);letter-spacing:0}
+main[data-case-study]>header nav{font-family:var(--font-sans);border-color:var(--line)}
+main[data-case-study]>header nav a,main[data-case-study]>header nav li{color:var(--foreground)}
+main[data-case-study]>header nav>a:last-child{background:var(--cocoa);color:var(--on-dark);border-radius:var(--radius-sm);font-weight:500}
+main[data-case-study]>header dt{color:var(--ink-muted)}main[data-case-study]>header dd{color:var(--foreground)}
+main[data-case-study]>section:nth-of-type(odd){background:var(--surface-cream);color:var(--foreground)}
+main[data-case-study]>section:nth-of-type(odd) p{color:var(--ink-muted)}
+main[data-case-study]>section:nth-of-type(even){background:var(--cocoa);color:var(--on-dark);--line:var(--on-brand-muted);--muted:var(--on-brand-muted)}
+main[data-case-study]>section:nth-of-type(even) p{color:var(--on-brand-muted)}
+main[data-case-study]>section:nth-of-type(even) a{color:var(--on-dark)}
+main[data-case-study]>section:nth-of-type(even) aside{background:var(--surface-mist);color:var(--foreground)}
+main[data-case-study]>section:nth-of-type(even) aside p{color:var(--ink-muted)}
+main[data-case-study] footer>a{font-family:var(--font-serif);font-weight:400}
+main[data-case-study] a:focus-visible{outline:2px solid var(--focus-dark);outline-offset:2px;box-shadow:0 0 0 2px var(--focus-light)}
+main[data-case-study] [class*="eyebrow"],main[data-case-study] [class*="sectionNumber"]{display:none}
+main[data-case-study] dt,main[data-case-study] figcaption,main[data-case-study] footer small{font-family:var(--font-sans);letter-spacing:0;text-transform:none;font-size:14px}

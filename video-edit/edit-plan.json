@@ -1,0 +1,31 @@
+{
+  "clips": [
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57719257-6097781e7193b1b242e31070608423ff.webm",
+      "start": 0.6,
+      "end": 10.6,
+      "speed": 1.4
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57721218-d1dd8b24f51f3ce139dee29f02bc34dd.webm",
+      "start": 0.8,
+      "end": 12.8,
+      "speed": 1.7
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57721264-b06b9ec1b64b1a18ec8035ffe6be200d.webm",
+      "start": 0.6,
+      "end": 11.6,
+      "speed": 1.5
+    },
+    {
+      "file": "D:\\dev\\fabb\\portfolio\\filmy\\desktop\\video-57720927-5621ddeefa30a74911b2096b80644f29.webm",
+      "start": 0.8,
+      "end": 12.8,
+      "speed": 1.7
+    }
+  ],
+  "duration": 27.543837535014006,
+  "crop": "1280:616:0:44",
+  "crossfade": 0.35
+}

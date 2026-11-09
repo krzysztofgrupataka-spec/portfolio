@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elemental 0.2 — przykład struktury komponentów</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="elemental.css">
+<body>
+<main class="el-container">
+  <header class="el-hero">
+    <p class="el-hero__label">Elemental / Specimen 0.2</p>
+    <p class="el-hero__intro">Typografia, przestrzeń i pełne pola koloru.</p>
+    <h1 class="el-hero__name display-xl">Elemental</h1>
+    <p class="el-hero__cta body">Przykład techniczny komponentów. Nazwy poniżej są treścią testową, nie opisem rzeczywistych projektów.</p>
+  </header>
+  <section aria-label="Przykładowe kompozycje" class="el-work-grid">
+    <a class="el-wblock el-wblock--featured el-wblock--butter" href="#details">
+      <div class="el-wblock__meta"><span>01 / Treść testowa</span><span class="el-wblock__year">2026</span></div>
+      <div class="el-wblock__media" aria-hidden="true"><span class="display-xl">Aa</span></div>
+      <h2 class="el-wblock__name">Przykład szerokiego pola</h2>
+      <span class="el-wblock__view">Zobacz opis komponentu ↗</span>
+    </a>
+    <a class="el-wblock el-wblock--cocoa el-wblock--portrait" href="#details">
+      <div class="el-wblock__meta"><span>02 / Treść testowa</span><span class="el-wblock__year">2026</span></div>
+      <div class="el-wblock__media" aria-hidden="true"><span class="quote">Materia<br>i forma.</span></div>
+      <h2 class="el-wblock__name">Długa nazwa projektu sprawdzająca łamanie wierszy</h2>
+      <span class="el-wblock__view">Zobacz opis komponentu ↗</span>
+    </a>
+  </section>
+  <section id="details" class="el-section">
+    <h2 class="display-m">Stany i warianty</h2>
+    <p class="body">Fokus sprawdzisz klawiszem Tab. Kafle zachowują podpisy bez hover. Motyw domyślnie odpowiada ustawieniu systemu.</p>
+    <p>
+      <button class="el-btn el-btn--solid" type="button">Primary</button>
+      <button class="el-btn el-btn--breeze" type="button">Secondary</button>
+      <button class="el-btn el-btn--butter" type="button">Warm</button>
+      <button class="el-btn el-btn--outline" type="button">Outline</button>
+      <button class="el-btn el-btn--ghost" type="button">Ghost</button>
+      <button class="el-btn el-btn--solid" type="button" disabled>Disabled</button>
+    </p>
+    <label class="body" for="theme">Motyw podglądu</label>
+    <select id="theme" class="el-btn el-btn--outline">
+      <option value="system">Systemowy</option><option value="light">Jasny</option><option value="dark">Ciemny</option>
+    </select>
+  </section>
+</main>
+<script>
+document.getElementById('theme').addEventListener('change', function () {
+  if (this.value === 'system') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.dataset.theme = this.value;
+});
+</script>
+</body>
+</html>

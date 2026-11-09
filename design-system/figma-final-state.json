@@ -1,0 +1,107 @@
+{
+  "fileKey": "7nWbUIIgySO8jR8xuHI6WV",
+  "url": "https://www.figma.com/design/7nWbUIIgySO8jR8xuHI6WV",
+  "status": "complete-in-file",
+  "teamLibraryPublished": false,
+  "validated": {
+    "variables": 72,
+    "textStyles": 30,
+    "components": 99,
+    "componentSets": 9,
+    "unboundSolidFills": [],
+    "unstyledText": [],
+    "missingCodeSyntax": [],
+    "badSemanticAliases": []
+  },
+  "pages": {
+    "00 Read me": "0:1",
+    "01 Foundations": "2:2",
+    "02 Components": "2:3",
+    "03 Compositions": "2:4",
+    "04 QA": "2:5"
+  },
+  "reviewBoards": {
+    "readme": "8:2",
+    "foundations": "8:22",
+    "light": "9:2",
+    "dark": "9:209"
+  },
+  "screens": [
+    {
+      "id": "5:137",
+      "name": "Portfolio / Desktop / Light",
+      "width": 1440,
+      "height": 3338,
+      "descendantCount": 80,
+      "types": {
+        "FRAME": 21,
+        "TEXT": 42,
+        "INSTANCE": 14,
+        "VECTOR": 3
+      },
+      "imageNodes": [],
+      "fonts": [
+        "Archivo",
+        "Fraunces",
+        "Hanken Grotesk"
+      ]
+    },
+    {
+      "id": "5:138",
+      "name": "Portfolio / Desktop / Dark",
+      "width": 1440,
+      "height": 3338,
+      "descendantCount": 80,
+      "types": {
+        "FRAME": 21,
+        "TEXT": 42,
+        "INSTANCE": 14,
+        "VECTOR": 3
+      },
+      "imageNodes": [],
+      "fonts": [
+        "Archivo",
+        "Fraunces",
+        "Hanken Grotesk"
+      ]
+    },
+    {
+      "id": "5:139",
+      "name": "Portfolio / Mobile / Light",
+      "width": 390,
+      "height": 2604.5,
+      "descendantCount": 80,
+      "types": {
+        "FRAME": 21,
+        "TEXT": 42,
+        "INSTANCE": 14,
+        "VECTOR": 3
+      },
+      "imageNodes": [],
+      "fonts": [
+        "Archivo",
+        "Fraunces",
+        "Hanken Grotesk"
+      ]
+    },
+    {
+      "id": "5:140",
+      "name": "Portfolio / Mobile / Dark",
+      "width": 390,
+      "height": 2604.5,
+      "descendantCount": 80,
+      "types": {
+        "FRAME": 21,
+        "TEXT": 42,
+        "INSTANCE": 14,
+        "VECTOR": 3
+      },
+      "imageNodes": [],
+      "fonts": [
+        "Archivo",
+        "Fraunces",
+        "Hanken Grotesk"
+      ]
+    }
+  ]
+}
